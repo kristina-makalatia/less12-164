@@ -1,0 +1,27 @@
+@media (max-width:1024px) {
+    .flex-wraper  {
+        flex-direction: column;
+    }
+    .left-block,
+    .right-block {
+        width: 100%;
+    }
+    .right-block {
+        flex-direction: row;
+        display: flex;
+        column-gap: 129px;
+    }
+    .descr1,
+    .text-block {
+        max-width: 415.5px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 744px) {
+    .right-block {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}

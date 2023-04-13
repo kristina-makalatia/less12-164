@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 12</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <section>
+      <h2>Form Html</h2>
+      <form class="form-element" action="">
+        <div class="form-wraper">
+          <label for="username">Username</label>
+          <input
+            class="input-value"
+            type="text"
+            id="username"
+            name="myusername"
+            placeholder="Enter Your Username"
+            required
+          />
+        </div>
+
+        <div class="form-wraper">
+          <label for="mypassw">Password</label>
+          <input
+            class="input-value"
+            type="password"
+            id="mypassw"
+            name="mypasswordValue"
+            placeholder="Enter Your Password"
+            required
+          />
+        </div>
+
+        <div class="form-wraper">
+          <label for="country">Choose Country</label>
+          <select class="select-form" name="mycountry" id="country">
+            <option value="none" selected disabled hidden>Your Country</option>
+            <option value="georgia">Georgia</option>
+            <option value="germany">Germany</option>
+            <option value="usa">Usa</option>
+          </select>
+        </div>
+
+        <div class="form-wraper">
+          <label for="">Your Message</label>
+          <textarea
+            name=""
+            id=""
+            class="textarea-value"
+            placeholder="Enter Your Message..."
+          ></textarea>
+        </div>
+
+        <div>
+          <div>
+            <input type="radio" name="userage" id="age1" />
+            <label for="age1">18-30</label>
+          </div>
+          <div>
+            <input type="radio" name="userage" id="age2" />
+            <label for="age2">30-50</label>
+          </div>
+        </div>
+        <button class="btn-submit" type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- h/w section -->
+    <section class="section-bg">
+      <div class="container flex-wraper">
+          <div class="left-block">
+            <img src="images/img.jpg" alt="">
+          </div>
+          <div class="right-block">
+            <p class="descr1">Long headline on two lines to turn your visitors into users and achieve more</p>
+
+            <div class="text-block">
+              <p>Separated they live in Bookmarks right at the coast of the famous Semantics, large language ocean</p>
+              <h3>Showcase and embed your work with </h3>
+              <h3>Showcase and embed your work with </h3>
+              <h3>Showcase and embed your work with </h3>
+              <h3>Showcase and embed your work with </h3>
+            </div>
+          </div>
+      </div>
+    </section>
+  </body>
+</html>
